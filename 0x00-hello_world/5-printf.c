@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void); /* Program should compile without warnings */
+int main(void); // Program should compile without warnings
 
 int main(void)
 {

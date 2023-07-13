@@ -6,5 +6,6 @@
  */
 int main(void)
 {
+	/* my first program on preprocessor */
 	return (0);
 }

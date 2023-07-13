@@ -6,5 +6,6 @@
  */
 int main(void)
 {
+	/* Trying compiler */
 	return (0);
 }

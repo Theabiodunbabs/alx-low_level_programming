@@ -1,9 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* getting started with if else */
-/* program to display if n is positive or negative */
-int main(void)/* main is to set value for n */
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+/* This program shows the usage of if-else statements to determine if a number is positive, zero, or negative. */
+int main(void)
 {
 	/* Function will set a value for n */
 	int n;

@@ -1,15 +1,17 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
-/* more headers goes there */
+/* getting started with if else */
 
-/* betty style doc for function main goes there */
+/* program to display if n is positive or negative */
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	/* if else loop for n */
 	if (n>0)
 	{
 	printf("%d is positive\n", n);

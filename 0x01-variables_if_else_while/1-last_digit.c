@@ -1,26 +1,37 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+/* This program shows the usage of if-else statements */
 int main(void)
 {
+        /* Function will set a value for n */
         int n;
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
-        /* your code goes there */
-        if (n>0)
+        
+	/* getting last digit of n */
+	int lastdigit = abs(n % 10);
+
+	printf("Last digit of %d is %d and is ", n, lastdigit);
+
+        if (lastdigit > 5)
         {
-        printf("%d is positive\n", n);
+        printf("greater than 5\n");
         }
-        else if (n==0)
+        else if (n == 0)
         {
-        printf("%d is zero\n", n);
+        printf("0\n");
         }
         else
         {
-        printf("%d is negative\n", n);
+        printf("less than 6 and not 0\n")
         }
         return (0);
 }

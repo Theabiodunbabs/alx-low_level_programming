@@ -3,7 +3,7 @@
 #include <time.h>
 /* getting started with if else */
 /* program to display if n is positive or negative */
-int main(void) /* main is to set value for n */
+int main(void)/* main is to set value for n */
 {
 	/* Function will set a value for n */
 	int n;

@@ -6,8 +6,10 @@
  * Return: Always 0 (Success)
  */
 /* this program prints alphabets */
-int main (void)
+int main(void)
 {
+	/* set character for alphabets */
+
 	char m;
 	for (m = 'a'; m <= 'z'; m++)
 	{

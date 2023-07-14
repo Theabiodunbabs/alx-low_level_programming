@@ -8,6 +8,9 @@
 int main(void)
 {
 	/* A piece of art is useful */
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	const char message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	
+	write(2, message, sizeof(message) - 1);
+       	
 	return (1);
 }

@@ -7,7 +7,7 @@
  *
  * Return: Always 0 (Success)
  */
-/* This program shows the usage of if-else statements to determine if a number is positive, zero, or negative. */
+/* This program shows the usage of if-else statements */
 int main(void)
 {
 	/* Function will set a value for n */

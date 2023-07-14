@@ -4,7 +4,6 @@
 /* getting started with if else */
 
 /* program to display if n is positive or negative */
-
 int main(void)
 {
 	/* Function will set a value for n */

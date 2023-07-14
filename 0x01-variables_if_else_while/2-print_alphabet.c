@@ -11,6 +11,7 @@ int main(void)
 	/* set character for alphabets */
 
 	char m;
+	
 	for (m = 'a'; m <= 'z'; m++)
 	{
 		putchar(m);

@@ -8,9 +8,10 @@
 
 int main(void)
 {
-const char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+ssize_t size = sizeof(a) - 1;
 
-write(2, a, sizeof(a) - 1);
+write(2, a, size);
 
 return (1);
 }

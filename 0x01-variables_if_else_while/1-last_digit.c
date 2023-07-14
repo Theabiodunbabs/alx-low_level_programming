@@ -12,7 +12,7 @@ int main(void)
 {
         /* Function will set a value for n */
         int n;
-	int lastdigit;
+	int lastdigit = 0;
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;

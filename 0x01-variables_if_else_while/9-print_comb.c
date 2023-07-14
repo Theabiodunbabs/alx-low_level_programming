@@ -7,18 +7,20 @@
  */
 /* this program prints single digit numbers */
 
-int(main)
+int main(void)
 {
 	int num;
-	{
+
 		for (num = 0; num < 10; num++)
 		{
 			putchar('0' + num);
+			if (num !=9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
+		putchar('\n');
 
-		/* put space and , after number */
-		
-		putchar(',');
-		putchar(' ');
 		return (0);
-	}
+}

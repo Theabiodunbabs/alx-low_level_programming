@@ -7,6 +7,7 @@
 
 int main(void)
 {
+	/* Function will set a value for n */
 	int n;
 
 	srand(time(0));

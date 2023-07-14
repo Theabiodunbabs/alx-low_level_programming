@@ -11,7 +11,7 @@ int main(void)
 {
 	int i, j, k;
 
-	for (i = 0; i <7; i++)
+	for (i = 0; i < 7; i++)
 	{
 		for (j = 1 + 1; j <= 8; j++)
 		{
@@ -32,5 +32,5 @@ int main(void)
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }

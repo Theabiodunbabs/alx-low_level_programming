@@ -15,7 +15,7 @@ int main(void)
 /**
  * printMessage - Prints _putchar followed by a new line
  */
-void printMessage(void
+void printMessage(void)
 {
 	char message[] = "_putchar\n";
 	int i;

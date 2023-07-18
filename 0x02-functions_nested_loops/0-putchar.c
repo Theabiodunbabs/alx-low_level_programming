@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- *
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
-{
-	/* program to print _putchar */
+{	/* program to print _putchar */
 	printMessage();
 	return (0); /* Return 0 to indicate success */
 }
 
-void printMessage()
+void printMessage(void)
 {
 	char message[] = "_putchar\n";
 	int i;

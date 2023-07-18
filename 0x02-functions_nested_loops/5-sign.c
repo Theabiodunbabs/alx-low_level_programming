@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_sing - Prints the sign of a number
- * n: The number to check and is used as case study
+ * print_sign - Prints the sign of a number
+ *@n: The number to check and is used as case study
  *
  * Return: 1 if n is > 0, 0 if n = 0, -1 if n < 0
  */

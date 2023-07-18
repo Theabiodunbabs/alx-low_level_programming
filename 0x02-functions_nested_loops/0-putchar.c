@@ -12,9 +12,11 @@ int main(void)
 	return (0); /* Return 0 to indicate success */
 }
 
-void printMessage(void) /* ready to print */
+/**
+ * printMessage - Prints _putchar followed by a new line
+ */
+void printMessage(void
 {
-	/* ready to print putchar */
 	char message[] = "_putchar\n";
 	int i;
 

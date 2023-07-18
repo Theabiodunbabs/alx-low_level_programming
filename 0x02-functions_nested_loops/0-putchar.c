@@ -12,7 +12,7 @@ int main(void)
 	return (0); /* Return 0 to indicate success */
 }
 
-void printMessage(void)
+void printMessage(void) /* ready to print */
 {
 	char message[] = "_putchar\n";
 	int i;

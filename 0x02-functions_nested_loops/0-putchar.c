@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <main.h>
 
 /**
@@ -11,6 +10,17 @@
 int main(void)
 {
 	/* program to print _putchar */
-	printf("_putchar\n");
-	return (0);
+	printMessage();
+	return (0); /* Return 0 to indicate success */
+}
+
+void printMessage()
+{
+	char message[] = "_putchar\n";
+	int i;
+
+	for (i = 0; message[i] != '\0'; i++)
+	{
+		_putchar(message[i]); /* call _putchar to print each charater */
+	}
 }

@@ -21,7 +21,6 @@ void print_times_table(int n)
 				printf("%d", product);
 			else
 				printf(", %3d", product);
-
 		}
 		printf("\n");
 	}

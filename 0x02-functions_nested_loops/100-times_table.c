@@ -9,7 +9,8 @@ void print_times_table(int n)
 	if (n < 0 || n > 15)
 		return; /* If n is outside the valid range, do not print */
 
-	int i, j;
+	int i;
+	int j;
 	int product;
 
 	for (i = 0; i <= n; i++)

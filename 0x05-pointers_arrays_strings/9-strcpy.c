@@ -2,7 +2,7 @@
 #include <stddef.h>
 
 /**
- * _strcpy - Copies the string pointed to by src to the buffer pointed 
+ * _strcpy - Copies the string pointed to by src to the buffer pointed
  * @dest: The destination buffer.
  * @src: The source string.
  *
@@ -12,7 +12,7 @@ char *_strcpy(char *dest, char *src)
 {
 	char *dest_ptr = dest;
 	char *src_ptr = src;
-	
+
 	while (*src_ptr != '\0')
 	{
 		*dest_ptr = *src_ptr;

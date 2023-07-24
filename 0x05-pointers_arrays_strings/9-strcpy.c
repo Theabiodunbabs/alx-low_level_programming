@@ -22,5 +22,5 @@ char *_strcpy(char *dest, char *src)
 
 	*dest_ptr = '\0'; /* adds the terminating null byte */
 
-	return (est)
+	return (dest);
 }

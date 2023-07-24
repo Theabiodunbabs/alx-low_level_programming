@@ -23,13 +23,13 @@ int _strlen(char *s)
  * puts_half - Prints the second half of a string
  * @str: The input string.
  */
-void puts_hald(char *str)
+void puts_half(char *str)
 {
 	int len = _strlen(str);
 	int i, start;
 	
-	start - (len % 2 == 0) ? len / 2 : (len+1) / 2;
-	for (i = start; i < len: i++)
+	start = (len % 2 == 0) ? len / 2 : (len+1) / 2;
+	for (i = start; i < len; i++)
 	{
 		_putchar(str[i]);
 	}

@@ -24,6 +24,5 @@ char *_strncat(char *dest, char *src, int n)
 	/* Null-terminate the resulting string */
 	dest[dest_len] = '\0';
 
-	return dest;
+	return (dest);
 }
-

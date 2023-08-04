@@ -1,12 +1,5 @@
 #include <stdio.h>
 
-/**
- * prints all arguements
- * @argc: counts arguments
- * @argv: arguments vector
- *
- * Return: Always 0 (Success)
- */
 int main(int argc, char *argv[])
 {
 	int i;

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stddef.h>
 
 /**
  * This program prints the number of arguements passed into it. 
@@ -12,6 +11,6 @@ int main(int argc, char *argv[])
 {
 	(void)argv;
 
-	printf("%d\n", argc);
+	printf("%d\n", argc - 1);
 	return (0);
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * This program prints the number of arguements passed into it.
+ * main - This program prints the number of arguements passed into it.
  * @argc: counts the arguements
  * @argv: arguements vector
  *

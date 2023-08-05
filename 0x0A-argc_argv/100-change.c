@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * calculates minimum coins
+ * main - calculates minimum coins
  *
  * @argc: argument count
  * @argv: argument vector

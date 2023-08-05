@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * This program prints its name
+ * main - This program prints its name using arguments
  * @argc: arguement count
  * @argv: arugement vector
  *

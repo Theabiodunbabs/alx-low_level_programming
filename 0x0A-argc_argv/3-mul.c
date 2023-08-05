@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * This program multiples two numbers
+ * main - This program multiples two numbers
  * It taks two arguements from the command line and prints the multiplication
  *
  * @argc: argument count

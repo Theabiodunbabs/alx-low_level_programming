@@ -3,10 +3,10 @@
 #include <ctype.h>
 
 /**
- * This program adds positive numbers pass as arguements
+ * main - This program adds positive numbers pass as arguements
  *
- * argc: argument count
- * argv: argument vector
+ * @argc: argument count
+ * @argv: argument vector
  *
  * Return: 0 if successful, otherwise 1 for an error
  */

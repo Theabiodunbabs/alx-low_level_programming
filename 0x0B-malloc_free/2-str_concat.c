@@ -6,7 +6,7 @@
  * @s1: The firset string
  * @s2: The second string
  *
- * Return: Pointer to a newly allocated memory space containing the 
+ * Return: Pointer to a newly allocated memory space containing the
  *	concatenated string, or NULL on failure.
  *
  */
@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; i < length1; i++)
 		concatenated[i] = s1[i];
 	for (j = 0; j < length2; j++)
-		concatenated[i+j] = s2[j];
+		concatenated[i + j] = s2[j];
 
 	concatenated[i + j] = '\0';
 
